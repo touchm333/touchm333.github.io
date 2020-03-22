@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>color.html</title>
+    <style>
+        /*selector, property, value     */
+        div {
+            width: 200px;
+            height: 200px;
+            /*        RGB:red,green,blue */
+            background-color: reb(255, 0, 0);
+            background-color: rgba(255, 0, 0, 0.5);
+            /* hex */
+
+            background-color: #ff0000;
+            opacity: 0.5;
+            /*            hsl*/
+            background-color: hsl(238, 100%, 50%);
+
+        }
+
+        img {
+            width: 100px
+        }
+
+        /* hex
+        0    0
+        1    1
+        ...    ...
+        9    9
+        10    A
+        11    B
+        12    C
+        13    D
+        14    E
+        15    F
+        16    10
+        hex: ff=15*16+15
+        */
+
+        body {
+            height: 100vh;
+            background-image: url(https://images.pexels.com/photos/1054391/pexels-photo-1054391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="https://images.pexels.com/photos/3683194/pexels-photo-3683194.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <h1>RGB</h1>
+    <div></div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/HSL_color_solid_cylinder_saturation_gray.png/197px-HSL_color_solid_cylinder_saturation_gray.png" alt="">
+</body></html>
