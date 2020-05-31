@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grayscale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #header1 {
+
+            background-size: cover;
+            position: relative;
+            font-family: 'Varela Round', sans-serif;
+            color: gray;
+            background-attachment: scroll;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+
+
+        }
+
+        nav {
+            padding: 17px;
+            padding-left: 90px;
+        }
+
+        .header-name {
+            top: 17px;
+            position: relative;
+            font-weight: 700;
+            font-size: 19px;
+            color: white;
+            opacity: 0.5;
+            letter-spacing: 0.05rem
+        }
+
+        .ul {
+            display: inline-block;
+            right: 84px;
+            position: absolute;
+
+        }
+
+        .right-corner {
+            display: inline-block;
+            margin-right: 47px;
+            color: white;
+            opacity: 0.5;
+
+        }
+
+        #banner {
+            padding: 150px;
+            padding-top: 150px;
+            text-align: center;
+            margin: auto;
+            color: white;
+            opacity: 0.999;
+
+        }
+
+        .title {
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-size: 90px;
+            letter-spacing: 24px;
+
+
+        }
+
+        .sub-title {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 100;
+            margin-left: auto;
+            margin-right: auto;
+            letter-spacing: 0.06rem;
+
+
+
+
+
+        }
+
+
+
+        #button1 {
+            display: inline-block;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+            margin: 50px;
+            padding: 1.25rem 2rem;
+            border-radius: 3.25%;
+            background-color: #64a19d;
+            letter-spacing: 1.5px;
+
+        }
+
+        span {
+            color: aqua;
+            opacity: 0.5;
+
+        }
+
+        #mid-section {
+            font-family: 'Varela Round', sans-serif;
+
+            padding-top: 5rem;
+            background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+
+
+
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+            vertical-align: bottom;
+            position: relative;
+            padding-left: 100px;
+            padding-right: 100px;
+
+        }
+
+        #about-banner {
+            padding: 0;
+            text-align: center
+        }
+
+        #title2 {
+            font-weight: 500;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        #info {
+            color: gray;
+            margin-bottom: 70px;
+            letter-spacing: 0.8px;
+        }
+
+        #third-section {
+            color: white;
+            padding: 10rem 0;
+            font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+        }
+
+        #container1 {
+
+            display: block;
+            text-align: left;
+            padding: 0;
+
+
+        }
+
+        #Shoreline {
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #212529;
+            padding-right: 100px;
+            vertical-align: middle;
+            /*            margin-top: 169px;*/
+            /*            display: inline-block;*/
+            margin-left: 33px;
+        }
+
+        #content1 {
+            color: #212529;
+            opacity: 0.6;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            padding-right: 95px;
+            vertical-align: middle;
+            display: inline-block;
+            margin-left: 33px;
+        }
+
+
+
+        #image2 {
+
+            padding: 0;
+            margin-left: -3px;
+            display: block;
+            padding-left: 28px;
+            margin-right: 400px;
+
+
+
+
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        #container-one {
+            border-left: solid aquamarine 10px;
+            margin-top: 169px;
+            margin-right: 0px;
+
+        }
+
+
+        #container2 {
+            padding-top: 50px;
+            padding-left: 125px;
+            padding-right: 125px;
+        }
+
+        #top-left {
+            width: 580px;
+/*            display: inline-block;*/
+            box-sizing: border-box;
+
+        }
+
+        #top-right {
+            background-color: black;
+            display: inline-block;
+            padding: 75px;
+            box-sizing: border-box;
+
+        }
+
+        #bottom-left {
+            background-color: black;
+            display: inline-block;
+            padding: 66px;
+            box-sizing: border-box;
+        }
+
+        #bottom-right {
+            width: 580px;
+/*            display: inline-block;*/
+            box-sizing: border-box;
+
+        }
+
+        #Misty {
+            vertical-align: middle;
+            font-weight: 500;
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+
+
+
+        }
+
+        #content2 {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 90%;
+            text-align: left;
+            letter-spacing: 0.0625em;
+
+        }
+
+        #Mountains {
+            vertical-align: middle;
+            font-weight: 500;
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+
+        }
+
+        #content3 {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 90%;
+            text-align: right;
+            letter-spacing: 0.0625em;
+
+        }
+        #section4{
+            background-image: url(https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+            font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        #last-section{
+            background-color: black;
+            font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+    </style>
+</head>
+
+<body>
+    <header id='header1'>
+        <div id="overlay"></div>
+        <nav>
+            <div class="header-name">Start Bootstrap</div>
+            <ul class="ul">
+                <li class="right-corner">About</li>
+                <li class="right-corner">Projects</li>
+                <li class="right-corner">Contact</li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <div class="title">GRAYSCALE</div>
+            <div class="sub-title">A free, responsive, one page Bootstrap theme <br> created by Start Bootstrap.</div>
+            <div id="button1">GET STARTED</div>
+        </div>
+    </header>
+    <header id="mid-section">
+        <div id="about-banner">
+            <div id="title2">Built with Bootstrap 4
+            </div>
+            <div id="info">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, <br>simply download the template on <span>the preview page</span>. The theme is open source, and you <br> can use it for any purpose, personal or commercial.</div>
+            <img src="https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/ipad.png" alt="" class="image">
+        </div>
+
+    </header>
+    <header id="third-section">
+
+        <div id="image2"><img src="https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg" alt="" class="image">
+
+            <ul id='container-one' class="ul">
+                <!--               <div id="blue"></div>    -->
+                <li id='Shoreline'>Shoreline</li>
+                <li id='content1'>
+                    Grayscale is open source and MIT<br> licensed. This means you can use it for<br> any project - even commercial projects!<br> Download it, customize it, and publish <br>your website!</li>
+            </ul>
+        </div>
+
+        <div id="container2">
+            <img src="https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg" alt="" id="top-left">
+            <ul id='top-right'>
+                <li id='Misty'>Misty</li>
+                <li id='content2'>An example of where you can put an image of a<br> project, or anything else, along with a description.</li>
+            </ul>
+
+            <ul id='bottom-left'>
+                <li id='Mountains'>Mountains</li>
+                <li id='content3'>Another example of a project with its respective<br> description. These sections work well responsively as <br>well, try this theme on a small screen!</li>
+            </ul>
+            <img src="https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg" alt="" id="bottom-right">
+        </div>
+    </header>
+    <header id="section4">
+        <div id="container5">
+            <div id="title2">Subscribe to receive updates!</div>
+            <div id="email">ENTER EMAIL ADDRESS...</div><div id="subscribe">SUBSCRIBE</div>
+        </div>
+    </header>
+    <header id="last-section">
+       <div id="first-container">
+           <div id="Address">ADDRESS</div>
+       </div>
+        <div id="second-container">
+            <div id="Email">EMAIL</div>
+        </div>
+        <div id="third-container">
+            <div id="Phone">PHONE</div>
+        </div>
+    </header>
+</body></html>

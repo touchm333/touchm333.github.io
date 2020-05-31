@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+            font-size: 3rem;
+        
+        }
+        <!--    create elements by CSS-->
+
+        li{border: double blue;
+        
+        
+        
+        
+        
+        
+        }
+/*        li: before is before all elements in li*/
+/*        pseudo selector*/
+        
+          li:before {
+       content: '';
+              width: 20px;
+              height: 20px;
+   }
+        li:after{
+            content: '.'
+        }
+    </style>
+</head>
+<body>
+    
+ 
+    <ul>
+        <li>Tennis</li>
+        <li>Watch movie</li>
+        <li>Play with friends</li>
+        <li>Thinking</li>
+        <li>Hiking</li>
+    </ul>
+    
+</body>
+</html>

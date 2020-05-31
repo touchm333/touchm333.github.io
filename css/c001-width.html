@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid;
+            /*            width: 200px;*/
+            /*            relative to its parent tag*/
+            /*            width: 100%;*/
+            /*            let computer decide which means the default value*/
+            /*            width:auto;*/
+            width: 0;
+
+        }
+
+        #inline-block {
+            display: inline-block;
+            border: solid;
+            /*            relative to parent tag*/
+            /*            width:100%;*/
+            /*            default value*/
+            /*            width: auto;*/
+            width: 0;
+        }
+
+        #inline {
+            display: inline;
+            border: solid;
+            /*            no effect*/
+            width: 100%;
+            width: auto;
+            width: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <!--    block, inline-block, inline,-->
+    <!--check 3 values for width for 3 element types-->
+    <!--      width behaves differently based on element type-->
+
+    <div></div>
+    <p id="inline-block"></p>
+    <p id="inline"></p>
+    <button></button>
+</body></html>

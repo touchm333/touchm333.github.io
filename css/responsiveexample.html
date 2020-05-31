@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #container {
+            border: double blue;
+            overflow: auto;
+
+        }
+
+        nav {
+            float: right;
+            border: solid;
+
+        }
+
+        main {
+            clear: both;
+            border: solid;
+        }
+
+        li {
+            display: inline-block;
+            padding-left: 50px;
+        }
+
+        @media screen and (min-width: 992px) {
+
+            nav,
+            main {
+                float: none;
+                display: inline-block;
+            }
+
+            li {
+                display: block;
+            }
+
+            main {
+                width: 82%;
+                vertical-align: top;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li>Home page</li>
+                <li>blog</li>
+            </ul>
+        </nav>
+        <main>
+            <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolore laudantium quidem officiis repellat eius, sit a quasi incidunt corrupti consequuntur necessitatibus deserunt fugit, unde veniam cupiditate in placeat obcaecati.</section>
+            <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, velit laboriosam, quod minima veniam, ducimus esse dicta similique vel recusandae unde corporis ipsum laudantium eaque, architecto quam pariatur itaque nobis.</section>
+        </main>
+    </div>
+</body></html>

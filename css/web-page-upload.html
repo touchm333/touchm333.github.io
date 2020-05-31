@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #pictures {
+            text-align: center;
+        }
+
+        #pictures img,
+        #pictures .desc {
+            width: 443px;
+            height: 300px;
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+        }
+
+        .desc {
+            background-color: black;
+        }
+
+        #pictures .right {
+            margin-left: -4px;
+        }
+
+        @media all and (min-width:1090px) {
+
+            #pictures img,
+            #pictures .desc {
+                width: 483px;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="pictures">
+        <img src="https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg" alt="">
+        <div class="desc right">
+            <p>Misty
+                An example of where you can put an image of a project, or anything else, along with a description.</p>
+        </div>
+        <br>
+        <div class="desc">
+            <p>
+                Mountains
+                Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!
+            </p>
+        </div>
+
+        <img class='right' src="https://blackrockdigital.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg" alt="">
+
+    </section>
+
+</body></html>
+
+

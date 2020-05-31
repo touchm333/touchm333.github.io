@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lime;
+
+        }
+
+        #head {
+            border-radius: 147px;
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+        }
+
+        #eye1 {
+            border-radius: 150px;
+            height: 120px;
+            width: 104px;
+            background-color: white;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+
+        #eye2 {
+            border-radius: 150px;
+            height: 120px;
+            width: 104px;
+            background-color: white;
+            position: relative;
+            right: -174px;
+            bottom: 69px;
+        }
+
+        #pupil1 {
+            border-radius: 150px;
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            position: relative;
+            left: 8px;
+            top: 12px;
+
+        }
+
+        #pupil2 {
+            border-radius: 150px;
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            position: relative;
+            left: 8px;
+            top: 12px;
+
+        }
+
+        #lips {
+
+            /*            border-bottom-left-radius: 139px;*/
+            /*            border-bottom-right-radius: 139px;*/
+            border-radius: 50%;
+
+            border: solid 10px red;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            height: 123px;
+            width: 184px;
+            position: absolute;
+            left: 62px;
+            top: 124px;
+
+        }
+
+        #dimple1 {
+            border-radius: 120px;
+            height: 30px;
+            width: 15px;
+            background-color: black;
+            position: absolute;
+            top: 220px;
+            left: 76px;
+            transform: rotate(45deg);
+        }
+
+        #dimple2 {
+            border-radius: 120px;
+            height: 30px;
+            width: 15px;
+            background-color: black;
+            position: absolute;
+            top: 220px;
+            left: 237px;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        <div id="eye1">
+            <div id="pupil1"></div>
+        </div>
+        <div id="eye2">
+            <div id="pupil2"></div>
+        </div>
+        <div id="container">
+            <div id="lips"></div>
+            <div id="dimple1"></div>
+            <div id="dimple2"></div>
+        </div>
+    </div>
+
+    <!--    use position to draw the position, relative, absolute, and fixed position-->
+</body></html>
+
+
+

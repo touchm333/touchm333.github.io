@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        p {
+            border: solid red;
+            display: inline;
+            /*            width: 100px;*/
+            font-size: 100x;
+        }
+
+        section {
+            border: solid;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+
+        header {
+/*            display: none;*/
+            visibility: hidden;
+/*            not free space*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--      we know we can use display to change element's type such as inline, inline-block and block-->
+    <!--      block-->
+    <ul>
+        <li>width goes all the way across the scren</li>
+        <li>height is 0</li>
+        <li>we can set width and height works</li>
+    </ul>
+    <!--inline element-->
+    <ul>
+        <li>you can put it 2 inline elements on the same line</li>
+        <li>width and height properties no effects</li>
+        <li>its height depends on font-size</li>
+
+
+
+    </ul>
+
+    <p></p>
+    <p>content</p>
+    <!--    inline-block-->
+    <br><br>
+    <ul>
+        <li>no height, no width by default</li>
+        <li>width and height works</li>
+        <li>font-size doesn't works unless there are some text in it</li>
+
+    </ul>
+    <section></section>
+    <!--    none-->
+    <br><br>
+    <header>header disappeared</header>
+    <span>Span Following header</span>
+</body></html>

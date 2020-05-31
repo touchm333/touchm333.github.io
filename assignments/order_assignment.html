@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>order, restaurant</title>
+    <style>
+        img {
+            width: 250px;
+        }
+
+        div {
+            border: solid 2px;
+            margin: 50px;
+
+        }
+
+        div#comments {
+            height: 21px;
+
+        }
+
+        input[type="submit"] {
+            font-size: 19px;
+            background: linear-gradient(#67ae55, #578843);
+            background-color: #69a74e;
+            box-shadow: inset 0 1px 1px #a4e388;
+            border-color: #3b6e22 #3b6e22 #2c5115;
+            margin: 10px 0px;
+            padding: 7px 20px;
+            /*            border: 1px solid;*/
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            letter-spacing: 1px;
+            position: relative;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+            min-width: 194px;
+            padding: 7px 20px;
+            text-align: center;
+            font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+            font-weight: bold !important;
+            letter-spacing: normal;
+            text-rendering: optimizelegibility;
+        }
+        input[type="reset"] {
+            font-size: 19px;
+            background: linear-gradient(#67ae55, #578843);
+            background-color: #69a74e;
+            box-shadow: inset 0 1px 1px #a4e388;
+            border-color: #3b6e22 #3b6e22 #2c5115;
+            margin: 10px 0px;
+            padding: 7px 20px;
+            /*            border: 1px solid;*/
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            letter-spacing: 1px;
+            position: relative;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+            min-width: 194px;
+            padding: 7px 20px;
+            text-align: center;
+            font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+            font-weight: bold !important;
+            letter-spacing: normal;
+            text-rendering: optimizelegibility;
+        }
+        div#buttons{border:none;
+        margin: 51px;
+        }
+    </style>
+</head>
+
+<body>
+   <form action="">
+   <fieldset>
+       <legend>info</legend>
+   </fieldset>
+    <div id='information'>
+        <h3>My information</h3>
+        <h3>Name <input type="text" placeholder="Please enter your full name" name='first-name'></h3>
+        <h3>Email <input type="text" placeholder="Please enter your email" name='email'></h3>
+
+        <h3>Phone<input type="tel" placeholder="Please enter your phone number"></h3>
+        <h3>City:<select name="" id="">
+                <option value="toronto">Toronto</option>
+                <option value="london">London</option>
+                <option value="vancouver">Vancouver</option>
+                <option value="montreal">Montreal</option>
+            </select></h3>
+    </div>
+    <div id='order box'>
+        <h3>Order information</h3>
+        <input type="checkbox">
+        <img src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <input type="checkbox">
+        <img src="https://images.pexels.com/photos/3052248/pexels-photo-3052248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <input type="checkbox">
+        <img src="https://images.pexels.com/photos/41320/beef-cheese-cuisine-delicious-41320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <h3>People(1-4)<input type="range"></h3>
+        <h3>Date:<input type="date"></h3>
+        <h3>Time:<input type="time"></h3>
+        <input type="radio" name='payment'><label for="">Master card</label>
+        <input type="radio" name='payment'><label for="">Visa card</label>
+        <input type="radio" name='payment'><label for="">Paypal</label>
+
+    </div>
+    <div id='comments'><input type="text" placeholder="Please leave your comments" size="171">
+    </div>
+    <div id="buttons"><input type="submit">
+    <input type="reset" value="Reset">
+    </div>
+    </form>
+
+</body></html>

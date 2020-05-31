@@ -1,0 +1,90 @@
+<!--responsive design is letting our design to fit into different size of screens-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*        <576px */
+        div {
+            height: 200px;
+            border: solid;
+            background-color: tomato;
+        }
+
+        body:before {
+            content: 'small phone';
+            font-size: 4rem;
+
+        }
+
+        /*        >=576px*/
+        @media all and (min-width:576px) {
+            div {
+                background-color: red;
+            }
+
+            body:before {
+                content: 'big phone';
+
+                @media print and (min-width:576px) {
+                    div {
+                        background-color: blue;
+
+                        /*        >=768px*/
+                        @media all and (min-width:768px) {
+                            div {
+                                display: inline-block;
+                                width: 49%;
+                            }
+
+                            body:before {
+                                content: 'tablet';
+                                        /*        >=992px*/
+                                @media screen and (min-width:992px) {
+                                    div {
+                                        width: 33%;
+                                        background-color: blue;
+                                    }
+
+                                    body:before {
+                                        content: 'desktop';
+
+                                        /*        >=1200px*/
+                                        @media screen and (min-width:1200px) {
+                                            div {
+                                                width: 24%;
+                                                border-radius: 50%;
+                                            }
+
+                                            body:before {
+                                                content: 'television';
+                                            }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            responsive design is letting our design to fit into different size of screens
+        </li>
+        <li>We do mobile first</li>
+
+    </ul>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</body></html>

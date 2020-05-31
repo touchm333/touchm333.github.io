@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+
+            width: 800px;
+            height: 600px;
+            border: solid;
+            position: relative;
+
+
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        .item1 {
+            border: solid blue;
+            /*            relative is non-static*/
+            /*                relative is relative to itself*/
+            position: relative;
+            left: 500px;
+
+
+        }
+
+        /*absolute element keeps looking for its container with non-static position*/
+        .item2 {
+            border: solid red;
+            position: absolute;
+            right: 100px;
+
+
+        }
+
+        .item3 {
+            border: solid lime;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+   relative: relative to its original position which must have non-static position. and relative element not free its original space.
+   
+   absolut: relative to its container which must have non-static position, and it frees its original space.
+   
+   fixed: always relative to viewport.
+   
+   
+   -->
+    <div id="container">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+    </div>
+</body></html>
